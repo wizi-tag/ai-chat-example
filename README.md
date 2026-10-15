@@ -1,21 +1,22 @@
 # React + TypeScript + Vite + shadcn/ui
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+### How to run:
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Adding components
+2. **Start the development server:**
+   ```bash
+   # For desktop
+   npm run dev 
 
-To add components to your app, run the following command:
+   # For localnet
+   npm run dev -- --host 0.0.0.0
+   ```
 
-```bash
-npx shadcn@latest add button
-```
 
-This will place the ui components in the `src/components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+### Features:
+- **Mobile-friendly** responsive interface
+- **Local Storage** persistent chat history
+- **Simple Generators** random names for chat and "ai" answers  

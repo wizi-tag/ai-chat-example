@@ -144,7 +144,7 @@ export function ThemeProvider({
         return
       }
 
-      if (event.metaKey || event.ctrlKey || event.altKey) {
+      if (!event.metaKey || event.ctrlKey || event.altKey) {
         return
       }
 
@@ -152,7 +152,7 @@ export function ThemeProvider({
         return
       }
 
-      if (event.key.toLowerCase() !== "d") {
+      if (event.key.toLowerCase() !== "z") {
         return
       }
 
